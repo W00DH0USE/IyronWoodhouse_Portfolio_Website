@@ -13,33 +13,35 @@
   <body>
 
     <header>
-      <div class="menu-toggler">
-        <div class="bar half start"></div>
-        <div class="bar"></div>
-        <div class="bar half end"></div>
+      <div class="navigationBar" id="navigationBar">
+        <div class="menu-toggler">
+          <div class="bar half start"></div>
+          <div class="bar"></div>
+          <div class="bar half end"></div>
+        </div>
+        <nav class="top-nav">
+          <ul class="nav-list">
+            <li>
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li>
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li>
+              <a href="#services" class="nav-link">Services</a>
+            </li>
+            <li>
+              <a href="#portfolio" class="nav-link">Portfolio</a>
+            </li>
+            <li>
+              <a href="#experience" class="nav-link">Experience</a>
+            </li>
+            <li>
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-      <nav class="top-nav">
-        <ul class="nav-list">
-          <li>
-            <a href="index.html" class="nav-link">Home</a>
-          </li>
-          <li>
-            <a href="#about" class="nav-link">About</a>
-          </li>
-          <li>
-            <a href="#services" class="nav-link">Services</a>
-          </li>
-          <li>
-            <a href="#portfolio" class="nav-link">Portfolio</a>
-          </li>
-          <li>
-            <a href="#experience" class="nav-link">Experience</a>
-          </li>
-          <li>
-            <a href="#contact" class="nav-link">Contact</a>
-          </li>
-        </ul>
-      </nav>
       <div class="landing-text">
         <h1>Iyron Woodhouse</h1>
         <h6>UI | UX Designer and Full-Stack Web Developer</h6>
@@ -126,7 +128,8 @@
             <h6>Web Development</h6>
             <h1>Blog Website</h1>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. A, illum?</p>
-            <a href="" class="cta">View Details</a>
+            <a href="" class="cta" target="_blank" rel="noopener noreferrer">Github Repo</a>
+            <a href="" class="cta cta-live-link" target="_blank" rel="noopener noreferrer">Live Site</a>
           </div>
         </div>
         <!-- PORTFOLIO ITEM 2 -->
@@ -203,25 +206,32 @@
           <h1>Contact</h1>
           <h6>Let's work together</h6>
         </div>
-        <form action="" data-aos="fade-up" data-aos-delay="300">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" placeholder="Enter your name..." required>
+        <div class="contacts">
+          <!-- SKILL 1 -->
+          <div class="contacts-container" data-aos="fade-in" data-aos-delay="300">
+            <div class="icon-contacts-container">
+              <i class="fas fa-layer-group"></i>
+            </div>
+            <a href="mailto:iyronwoodhouse@gmail.com">Email</a>
+          </div>
+          <!-- SKILL 3 -->
+          <div class="contacts-container" data-aos="fade-in" data-aos-delay="900">
+            <div class="icon-contacts-container">
+              <i class="fas fa-chart-bar"></i>
+            </div>
+            <a href="https://www.linkedin.com/in/iyron-woodhouse-49973b122/" class="about-content-link" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </div>
+          <!-- SKILL 3 -->
+          <div class="contacts-container" data-aos="fade-in" data-aos-delay="900">
+            <div class="icon-contacts-container">
+              <i class="fas fa-chart-bar"></i>
+            </div>
+            <a href="https://github.com/W00DH0USE" class="about-content-link" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </div>
 
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" placeholder="Enter your email..." required>
 
-          <label for="service">Services:</label>
-          <select name="service" id="service">
-            <option value="">Web Design</option>
-            <option value="">Web Development</option>
-            <option value="">Web Design/Development</option>
-          </select>
 
-          <label for="subject">Subject:</label>
-          <textarea name="subject" id="subject" cols="30" rows="10"></textarea>
-
-          <input type="submit" value="Submit">
-        </form>
       </div>
     </section>
 
