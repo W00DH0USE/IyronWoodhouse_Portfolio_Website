@@ -324,10 +324,12 @@ li {
 
 .portfolio-img {
   flex: 1;
+  overflow-x: hidden;
 }
 
 .portfolio-description {
   flex: 1;
+  overflow-x: hidden;
 }
 
 .portfolio-description h1 {
