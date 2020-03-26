@@ -123,7 +123,7 @@ header {
   position: fixed;
   top: -100vh;
   z-index: 50;
-  background-color: #16162d;
+  background-color: #161616;
   border-bottom-right-radius: 100%;
   border-bottom-left-radius: 100%;
   transition: all 650ms cubic-bezier(1,0,0,1);
@@ -148,7 +148,7 @@ li {
 
 .nav-link {
   font-family: 'Indie Flower', sans-serif;
-  font-size: 5rem;
+  font-size: 4rem;
   padding: 1rem;
 }
 .nav-link:hover,
@@ -380,6 +380,26 @@ li {
 
 
 
+/*//////////////////SKILLS//////////////////*/
+.skills {
+  padding-bottom: 8.2rem;
+}
+
+.skills-list {
+  min-height: 330px;
+  padding-left: 20%;
+}
+
+.skill-list-item {
+  font-size: 1.8rem;
+  font-weight: 300;
+  text-align: left;
+  padding: 5px 0;
+}
+
+
+
+
 /*//////////////////TIMELINE//////////////////*/
 .timeline ul {
   border-left: 4px solid #36d1dc;
@@ -539,6 +559,20 @@ li {
 
 
 /*//////////////////MEDIA QUERIES//////////////////*/
+@media screen and (max-width: 1398px) {
+  .nav-list {
+    flex-direction: column;
+  }
+
+  .nav-link {
+    font-size: 4.5rem;
+  }
+
+  .nav-list li {
+    margin: 2rem 0;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .landing-text h1 {
     font-size: 8rem;
@@ -550,14 +584,6 @@ li {
 
   .nav-list {
     flex-direction: column;
-  }
-  .nav-list li {
-    margin: 2rem 0;
-
-  }
-
-  .nav-link {
-    font-size: 4.5rem;
   }
 
   .about-heading h1 {
