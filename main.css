@@ -212,7 +212,7 @@ li {
 }
 .landing-text h1 {
   font-size: 10rem;
-  font-family: 'Indie Flower', sans-serif;
+  /* font-family: 'Indie Flower', sans-serif; */
   background: linear-gradient(to top, #36d1dc, #5b86e5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -302,7 +302,7 @@ li {
 .icon-container {
   width: 10rem;
   height: 10rem;
-  border: 3px solid #36d1dc;
+  /* border: 3px solid #36d1dc; */
   background-color: #5b86e5;
   margin-bottom: 2rem;
   display: flex;
@@ -402,7 +402,7 @@ li {
 
 /*//////////////////TIMELINE//////////////////*/
 .timeline ul {
-  border-left: 4px solid #36d1dc;
+  border-left: 4px solid #5b86e5;
   /* border-radius: .8rem; */
   background-color: rgba(0, 0, 0, 0.05);
   margin: 0 auto;
@@ -450,12 +450,12 @@ li {
 }
 .timeline .date::after {
   content: '';
-  box-shadow: 0 0 0 4px #36d1dc;
+  box-shadow: 0 0 0 4px #5b86e5;
   border-radius: 100%;
   left: -7.9rem;
   height: 1.5rem;
   width: 1.5rem;
-  background-color: #36d1dc;
+  background-color: #5b86e5;
 }
 
 
@@ -490,8 +490,8 @@ li {
 .icon-contacts-container {
   width: 10rem;
   height: 10rem;
-  border: 3px solid #36d1dc;
-  background-color: #5b86e5;
+  /* border: 3px solid #36d1dc; */
+  background-color: grey;
   margin-bottom: 2rem;
   display: flex;
   margin-left: auto;
